@@ -1,0 +1,126 @@
+/* Fuente y fondo general */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1A252B;
+    color: white;
+    margin: 0;
+
+  }
+  /* NAV */
+  .navbar {
+    background-color: #41342B;
+    padding: 1rem;
+    border-bottom: 2px solid #00CFEA;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .navbar-brand img {
+    max-height: 50px;
+    object-fit: contain;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+  
+  .nav-link {
+    color: #ffffff !important;
+    margin-left: 1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #EB6600 !important;
+  }
+  
+  /* CARRUSEL */
+  .carousel-inner img {
+    object-fit: cover;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  /* TÍTULOS */
+  h2 {
+    color: #00CFEA;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* CARDS */
+  .evento-card {
+    background-color: #2B9CAB;
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .evento-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3); 
+    .card-img-top{
+    transform: scale(1.1);}
+  }
+
+  .card-title {
+    color: #cccccc;
+    font-weight: bold;
+  }
+
+  .card-img-top {
+    aspect-ratio: 1 / 1;                  /* hace que todas las imágenes sean cuadradas */
+    padding: 10px;                        /* crea el efecto de marco */
+    border-radius: 20px;                 /* esquinas redondeadas para imagen y marco */
+    object-fit: cover;                   /* recorta la imagen para que no se deforme */
+    width: 100%;                         /* asegura que se estire dentro del espacio */
+    display: block;                      /* evita espacios raros en línea */
+  }
+  
+
+  
+/* FORMULARIO DE CONTACTO */
+#contacto {
+    background-color: #36656B;
+  }
+  
+  #contacto input,
+  #contacto textarea {
+    background-color: #1A252B;
+    color: white;
+    border: 1px solid #00CFEA;
+  }
+  
+  #contacto input::placeholder,
+  #contacto textarea::placeholder {
+    color: #cccccc;
+  }
+  
+  #contacto input:focus,
+  #contacto textarea:focus {
+    outline: none;
+    border-color: #00CFEA;
+    box-shadow: 0 0 0 0.2rem rgba(0, 207, 234, 0.25);
+  }
+  
+  .btn-light {
+    background-color: #EB6600;
+    border: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .btn-light:hover {
+    background-color: #F69522;
+    color: white;
+  }
+
+  footer {
+    border-top: 3px solid #00CFEA;
+    font-size: 14px;
+    margin-top: 2rem;
+  }
+  
+  footer small {
+    font-size: 12px;
+  }
